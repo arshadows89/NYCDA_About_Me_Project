@@ -8,6 +8,7 @@ header {
 	position: fixed;
 	top: 0;
 	display: block;
+	color: white;
 	background-color: #666666;	
 }
 #wrapper {

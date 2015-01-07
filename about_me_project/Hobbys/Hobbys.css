@@ -8,6 +8,7 @@ header {
 	position: fixed;
 	top: 0;
 	display: block;
+	color: white;
 	background-color: #666666;	
 }
 #wrapper {
@@ -109,8 +110,41 @@ section {
 	padding-bottom: 120px;
 	width: 900px;
 }
-section > p {
-padding-left: 7.5px;
+section > div {
+	padding-top: 10px;
+}
+section > .column1 {
+	float: left;
+	width: 400px;
+	padding-left: 7.5px;
+}
+section > .column2 {
+	float:right;
+	width: 400px;
+}
+.column1 > h2,
+.column2 > h2 {
+	text-align: center;
+}
+.column1 > p
+.column2 > p {
+	text-indent: 50px;
+	text-align: justify;
+}
+.column1 > p > span,
+.column2 > p > span {
+	font-size: 25px;
+	padding-right: 2px;
+}
+.column2 {
+
+}
+.column1 > img,
+.column2 > img {
+	padding-top: 53.5px;
+	padding-bottom: 53.5px;
+	width: 400px;
+	height: auto;
 }
 footer {
 	margin: 0 auto;

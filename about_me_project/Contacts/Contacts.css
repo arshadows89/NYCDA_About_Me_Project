@@ -4,6 +4,7 @@ body {
 header {
 	margin: 0 auto;
 	width: 900px;
+	color: white;
 	z-index: 9997;
 	position: fixed;
 	top: 0;
