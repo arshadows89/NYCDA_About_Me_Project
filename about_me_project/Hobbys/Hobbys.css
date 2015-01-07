@@ -1,41 +1,45 @@
 body {
-	margin: 0 auto;
-	width: 900px;
+	margin: 0;
 }
 header {
-	height: 115px;
-	width: 100%;
-	z-index: 9997z;
+	margin: 0 auto;
+	width: 900px;
+	z-index: 9997;
 	position: fixed;
 	top: 0;
-	left: 0;
 	display: block;
-	background-color: #666666;
+	background-color: #666666;	
 }
-header > .my_name {
+#wrapper {
+	height: 115px;
+	margin: 0 auto;
+	width: 900px;
+	margin-top: 0px;
+}
+.my_name {
 	font-size: 40px;
 	font-weight: 500;
 	padding-left: 45px;
 	font-family: "PT Serif";
 }
-header > nav {
+nav {
 	margin-right: 50px;
 	padding-top: 42px;
 	float: right;
 	list-style: none;
 	text-align: center;
 }
-header > nav > ul {
+nav > ul {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
 }
-header > nav > ul > li {
+nav > ul > li {
  	display: inline;
  	padding: 10px;
 }
-header > nav > ul > li > a {
+nav > ul > li > a {
 	display: inline-block;
 	padding: 18px;
 }
@@ -94,9 +98,50 @@ a:visited {
 }
 
 a:hover {
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 a:active {
     text-decoration: none;
 }
+section {
+	padding-top: 120px;
+	padding-bottom: 120px;
+	width: 900px;
+}
+section > p {
+padding-left: 7.5px;
+}
+footer {
+	margin: 0 auto;
+	height: 115px;
+	width: 900px;
+	z-index: 9997;
+	position: fixed;
+	bottom: 0;
+	display: block; 
+	background-color: #666666;
+}
+footer > .made_by {
+	padding-top: 8px;
+	text-align: center;
+	font-size: 15px;
+}
+footer > .made_by > span {
+	font-style: italic;
+}
+footer > .contact_me {
+	padding-top: 3px;
+	text-align: center;
+	font-size: 13px;
+}
+footer > ul.contact_info {
+	margin-top: -25px;
+	font-size: 15px;
+	text-align: center;
+}
+footer > ul.contact_info > li {
+	display: inline-block;
+}
+footer > ul.contact_info > li > p {
+	padding: 8px;
