@@ -106,8 +106,8 @@ a:active {
     text-decoration: none;
 }
 section {
-	padding-top: 120px;
-	padding-bottom: 120px;
+	margin-top: 125px;
+	margin-bottom: 125px;
 	width: 900px;
 }
 section > div {
@@ -141,10 +141,16 @@ section > .column2 {
 }
 .column1 > img,
 .column2 > img {
-	padding-top: 53.5px;
-	padding-bottom: 53.5px;
 	width: 400px;
 	height: auto;
+}
+.column1 > img {
+	padding-top: 92px;
+	padding-bottom: 92.5px;
+}
+.column2 > img {
+	padding-top: 81.5px;
+	padding-bottom: 81.5px;
 }
 footer {
 	margin: 0 auto;
@@ -179,3 +185,11 @@ footer > ul.contact_info > li {
 }
 footer > ul.contact_info > li > p {
 	padding: 8px;
+}
+.gameplay_section {
+	float: none;
+	padding-bottom: 130px;
+}
+.gameplay_section > h2 {
+	left: 0;
+}
