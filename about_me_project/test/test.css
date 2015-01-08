@@ -123,7 +123,8 @@ footer {
 	position: fixed;
 	bottom: 0;
 	display: block; 
-	background-color: #666666;*/
+	background-color: #666666;
+	ignore*/
 }
 footer > img {
 	width: 100%;
