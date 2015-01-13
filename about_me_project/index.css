@@ -4,6 +4,7 @@ body {
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
 	height: 2000px;*/
+	font-size: 17px;
 	background-color: white;
 }
 header {
@@ -165,14 +166,9 @@ nav {
 .nav .contact_button:link, .nav .contact_button:visited {
   padding-top: 45px;
 }
-
-​
- 
-
 section {
 	float: right;
-	padding-top: 120px;
-	padding-bottom: 120px;
+	padding-top: 50px;
 	width: 70%;
 	color: black;
 	text-align: center;
@@ -182,6 +178,155 @@ section > p {
 	width: 70%;
 	float: right;
 }
+section > div {
+	padding-top: 10px;
+}
+section > .column1 {
+	float: left;
+	padding-left: 5%;
+	width: 45%;
+}
+section > .column2 {
+	padding-right: 5%;
+	float:right;
+	width: 45%;
+}
+.column1 > h2,
+.column2 > h2 {
+	text-align: center;
+}
+.column1 > p
+.column2 > p
+.gameplay_section > p {
+	text-indent: 50px;
+	text-align: justify;
+}
+.column1 > p > span,
+.column2 > p > span,
+.gameplay_section > p > span {
+	font-size: 25px;
+	padding-right: 2px;
+}
+.column2 {
+
+}
+.column1 > img,
+.column2 > img {
+	width: 100%;
+	height: auto;
+}
+.column1 > img {
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+.column2 > img {
+	padding-bottom: 25px;
+}
+.gameplay_section {
+	padding-right: 5%;
+	display: inline-block;
+	float: none;
+	padding-bottom: 130px;
+}
+.gameplay_section > h2 {
+	left: 0;
+}
+.gameplay_section > video {
+	padding-top: 15px;
+	width: 100%;
+	height: auto;
+}
+.gameplay_section >video.controls {
+	padding-top: 20px;
+}
+section .facebook > {
+	color: #4c66a4;
+}
+section .twitter {
+	color: #55acee;
+}
+section .instagram {
+	color: #3f729b;
+}
+section .facebook {
+	padding: 0 18%;
+}
+section .twitch,
+section .github,
+section .email,
+section .instagram,
+section .twitter {
+	padding: 0 15%;
+}
+section .twitter,
+section .instagram,
+section .email {
+	float: left;
+}
+section .facebook,
+section .twitch,
+section .github {
+	float: right;
+}
+section .twitter,
+section .email,
+section .instagram {
+	display: block;
+}
+.fa-facebook:before {
+	color: #4c66a4;
+}
+.fa-twitter:before {
+	color: #55acee;
+}
+.fa-instagram:before {
+	color: #3f729b;
+}
+section .phone {
+	display: inline-block;
+}
+section ul {
+	list-style-type: none;
+}
+section .github p {
+	float: left;
+}
+.phone i {
+	float: left;
+}
+.phone p {
+	padding-top: 2%;
+	font-size: 5vw;
+	float: left;
+	display: inline-block;
+}
+.contact_info {
+	height: auto;
+	padding-bottom: 125px;
+}
+.contact_info li {
+	font-size: 10vw;
+	display: inline-block;
+}
+.contact-info > ul > li > i {
+	padding: 15%;
+}
+.about_me_info {
+	width: 70%;
+}
+.my_photo,
+.cpu_image,
+.monitor_picture,
+.disney_picture {
+	width: 40%;
+	height: auto;
+	padding: 0 3%;
+}
+.about_me_info > p {
+	width: 100%;
+	padding-bottom: 2%;
+}
+
 footer {
 	/*margin: 0 auto;
 	height: 115px;
@@ -369,6 +514,11 @@ footer > div > ul.contact_info > li > p {
 	.contact {
 
 	}
+	section {
+		padding-bottom: 0px;
+		float: none;
+		width: 100%;
+	}
 	header {
 		width: 100%;
 		position: static;
@@ -394,5 +544,30 @@ footer > div > ul.contact_info > li > p {
 	}
 	footer > img {
 		position: static;
+	}
+	.icons li {
+		width: 100%;
+	}
+	section .phone {
+		float: right;
+		width: 75%;
+		margin: 0 auto;
+	}
+	.my_name,
+	.my_last_name {
+		font-size: 8vw;
+	}
+	.my_last_name {
+		padding-left: 3%;
+	}
+	.about_me_info {
+		width: 85%;
+		text-align: center;
+		margin: 0 auto;
+	}
+	.about_me_info > img {
+		float: none;
+		width: 100%;
+		padding-bottom: 2%;
 	}
 }
